@@ -567,9 +567,14 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{ApiAduana.Url}}/api/DocumentsConsultation/getDuaInfo?year=2023&documentNumber=784297&getBlockInfo=general",
+									"raw": "https://apiaduana.dev.aic.carrasco.aero/api/DocumentsConsultation/getDuaInfo?year=2023&documentNumber=784297&getBlockInfo=general",
+									"protocol": "https",
 									"host": [
-										"{{ApiAduana.Url}}"
+										"apiaduana",
+										"dev",
+										"aic",
+										"carrasco",
+										"aero"
 									],
 									"path": [
 										"api",
@@ -715,9 +720,14 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{ApiAduana.Url}}/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&documentNumber=531764&getBlockInfo=general",
+									"raw": "https://apiaduana.dev.aic.carrasco.aero/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&documentNumber=531764&getBlockInfo=general",
+									"protocol": "https",
 									"host": [
-										"{{ApiAduana.Url}}"
+										"apiaduana",
+										"dev",
+										"aic",
+										"carrasco",
+										"aero"
 									],
 									"path": [
 										"api",
@@ -787,9 +797,14 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{ApiAduana.Url}}/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&year=2023&getBlockInfo=general",
+									"raw": "https://apiaduana.dev.aic.carrasco.aero/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&year=2023&getBlockInfo=general",
+									"protocol": "https",
 									"host": [
-										"{{ApiAduana.Url}}"
+										"apiaduana",
+										"dev",
+										"aic",
+										"carrasco",
+										"aero"
 									],
 									"path": [
 										"api",
@@ -930,9 +945,14 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{ApiAduana.Url}}/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&year=2023&documentNumber=531764&getBlockInfo=Asociaciones",
+									"raw": "https://apiaduana.dev.aic.carrasco.aero/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&year=2023&documentNumber=531764&getBlockInfo=Asociaciones",
+									"protocol": "https",
 									"host": [
-										"{{ApiAduana.Url}}"
+										"apiaduana",
+										"dev",
+										"aic",
+										"carrasco",
+										"aero"
 									],
 									"path": [
 										"api",
@@ -1562,6 +1582,82 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"data\": {\n        \"codI_ADUAN\": \"\",\n        \"anO_PRESE\": \"\",\n        \"numE_CORRE\": \"\",\n        \"codI_ALMA\": \"\",\n        \"estado\": \"\",\n        \"desP_URGE\": \"\",\n        \"codI_AGENT\": \"\",\n        \"documentoAgente\": \"\",\n        \"tipoDocAgente\": \"\",\n        \"nombreAgente\": \"\",\n        \"numE_ORDEN\": \"\",\n        \"ctipodoc\": \"\",\n        \"cdocumen\": \"\",\n        \"uniD_TRANS\": 0,\n        \"viA_TRANSP\": \"\",\n        \"codI_MONED\": 0,\n        \"fecH_INGSI\": 0,\n        \"horA_INGSI\": \"\",\n        \"ultD_PAGO\": 0,\n        \"iD_MEDTRAN\": \"\",\n        \"trvjid\": 0,\n        \"tipO_TRAN\": \"\",\n        \"asiG_EXTRA\": \"\",\n        \"codI_REGI\": \"\",\n        \"aduaingegr\": \"\",\n        \"nomB_IMPOR\": \"\",\n        \"dirE_IMPOR\": \"\",\n        \"codI_PAIS\": \"\",\n        \"paiS_TRANS\": \"\",\n        \"polfecH_VENC\": 0,\n        \"toT_FACT\": 0,\n        \"poldobs\": \"\",\n        \"poldepdest\": \"\",\n        \"tipO_AFORO\": \"\",\n        \"fecH_VISREAL\": 0,\n        \"dclatrasal\": \"\",\n        \"ndnA_TRACT\": 0,\n        \"matR_REMO\": \"\",\n        \"matR_SREM\": \"\",\n        \"tdocemptra\": \"\",\n        \"ndocemptra\": \"\",\n        \"calmdest\": \"\",\n        \"dclatralle\": \"\",\n        \"adunumori\": \"\",\n        \"tipcamven\": 0,\n        \"tipcamcom\": 0,\n        \"polfecauts\": 0,\n        \"polduadigi\": \"\",\n        \"liberado\": \"\",\n        \"motivo\": \"\",\n        \"tdoczfra\": \"\",\n        \"ndoczfra\": \"\",\n        \"nomB_PROVE\": \"\",\n        \"tienE_CONTENEDORES\": \"\",\n        \"salidA_TERR_ADUANERO\": \"\",\n        \"indicadoR_RELLENO\": \"\",\n        \"items\": [],\n        \"asociaciones\": [],\n        \"contenedores\": [],\n        \"documentos\": [],\n        \"facturas\": [],\n        \"entradasstk\": [],\n        \"movimientos\": [],\n        \"correlacionados\": [],\n        \"at\": [],\n        \"skcontenedores\": []\n    },\n    \"guid\": \"5fe92f86-df8a-49c1-bbff-f450ebb416b8\",\n    \"code\": 0,\n    \"message\": \"Transacción ejecutada con éxito\"\n}"
+						},
+						{
+							"name": "year vacío",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://apiaduana.dev.aic.carrasco.aero/api/DocumentsConsultation/getDuaInfo?dnaNumber=002&year=&documentNumber=531764&getBlockInfo=general",
+									"protocol": "https",
+									"host": [
+										"apiaduana",
+										"dev",
+										"aic",
+										"carrasco",
+										"aero"
+									],
+									"path": [
+										"api",
+										"DocumentsConsultation",
+										"getDuaInfo"
+									],
+									"query": [
+										{
+											"key": "dnaNumber",
+											"value": "002"
+										},
+										{
+											"key": "year",
+											"value": ""
+										},
+										{
+											"key": "documentNumber",
+											"value": "531764"
+										},
+										{
+											"key": "getBlockInfo",
+											"value": "general"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "b684a1ff-863e-42e1-9738-b6cb832baba3"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 18:24:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"b684a1ff-863e-42e1-9738-b6cb832baba3\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
 						}
 					]
 				},
@@ -2044,6 +2140,65 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"year\": [\n        \"The value 'aa' is not valid.\"\n    ]\n}"
+						},
+						{
+							"name": "dsNumber vacio",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/DocumentsConsultation/getMsInfo?dsNumber=&year=2023",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"DocumentsConsultation",
+										"getMsInfo"
+									],
+									"query": [
+										{
+											"key": "dsNumber",
+											"value": ""
+										},
+										{
+											"key": "year",
+											"value": "2023"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 14:53:49 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "41"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"dsNumber\": [\n        \"The value '' is invalid.\"\n    ]\n}"
 						}
 					]
 				},
@@ -4924,6 +5079,579 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"pesoBruto\": [\n        \"Error converting value {null} to type 'System.Decimal'. Path 'pesoBruto', line 13, position 19.\"\n    ],\n    \"requestBody\": [\n        \"The requestBody field is required.\"\n    ]\n}"
+						},
+						{
+							"name": "pesoNeto null",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": null, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 15:10:37 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "164"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"pesoNeto\": [\n        \"Error converting value {null} to type 'System.Decimal'. Path 'pesoNeto', line 14, position 20.\"\n    ],\n    \"requestBody\": [\n        \"The requestBody field is required.\"\n    ]\n}"
+						},
+						{
+							"name": "pesoNeto vacio",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": \"\", //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 15:11:12 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "164"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"pesoNeto\": [\n        \"Error converting value {null} to type 'System.Decimal'. Path 'pesoNeto', line 14, position 18.\"\n    ],\n    \"requestBody\": [\n        \"The requestBody field is required.\"\n    ]\n}"
+						},
+						{
+							"name": "tipoBultos vacío",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": \"\", //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "6381aee1-b664-4ed7-922f-bd5da830050e"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:28:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"6381aee1-b664-4ed7-922f-bd5da830050e\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
+						},
+						{
+							"name": "tipoBultos null",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": null, //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "6381aee1-b664-4ed7-922f-bd5da830050e"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:28:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"6381aee1-b664-4ed7-922f-bd5da830050e\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
+						},
+						{
+							"name": "totalBultos vacio",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": \"\", //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:30:38 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "168"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"requestBody\": [\n        \"The requestBody field is required.\"\n    ],\n    \"totalBultos\": [\n        \"Error converting value {null} to type 'System.Int32'. Path 'totalBultos', line 16, position 21.\"\n    ]\n}"
+						},
+						{
+							"name": "totalBultos null",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": null, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:31:21 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "168"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"requestBody\": [\n        \"The requestBody field is required.\"\n    ],\n    \"totalBultos\": [\n        \"Error converting value {null} to type 'System.Int32'. Path 'totalBultos', line 16, position 23.\"\n    ]\n}"
+						},
+						{
+							"name": "tipoBultos vacio",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": \"\", //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "57c12fa2-3caf-45a9-9d20-e3b5d6eac9c2"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:34:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"57c12fa2-3caf-45a9-9d20-e3b5d6eac9c2\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
+						},
+						{
+							"name": "tipoBultos null",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 5, //pesO_NETO\r\n    \"tipoBultos\": null, //fijo\r\n    \"totalBultos\": 1, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "93dcc021-0799-4ae5-b9b4-6ffcd5bfaed4"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:35:21 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"93dcc021-0799-4ae5-b9b4-6ffcd5bfaed4\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
+						},
+						{
+							"name": "pesoNeto igual 0",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 5,\r\n    \"nroDepositoAduana\": \"2089\", //siempre 2089\r\n    \"nroStock\": \"6050004378\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"531764\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 8, //pesO_BRUTO\r\n    \"pesoNeto\": 0, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 0, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"FLORES 10 KGS. (ITEM 1)\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "03acb4fe-ca37-4232-8659-70e769487dc0"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 30 Oct 2023 16:37:50 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"\",\n    \"guid\": \"03acb4fe-ca37-4232-8659-70e769487dc0\",\n    \"code\": 703,\n    \"message\": \"No se obtuvieron todos los datos requeridos para realizar la consulta\"\n}"
+						},
+						{
+							"name": "AltaStockNew",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": {{clientOrderIdentifier}},//Identificador de movimientos\r\n    \"nroDepositoAduana\": \"{{nroDepositoAduana}}\", //Nro deposito fisico (siempre 2089)\r\n    \"nroStock\": \"{{nroStock}}\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"{{anoStock}}\", //anO_PRESE\r\n    \"tipoTransporte\": \"{{tipoTransporte}}\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"{{nroLineaAduana}}\", //num\r\n    \"tipoDocEntrada\": \"{{tipoDocEntrada}}\", //GEX = 18, DUA = 19, PEQUEÑO ENVIO = 36, MS = 34, ACTA = 35, VEHICULO NO MERCOSUR = 73\r\n    \"aduanaDocEntrada\": \"{{aduanaDocEntrada}}\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"{{anoDocEntrada}}\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"{{nroDocEntrada}}\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"{{fechaEntradaDeposito}}\", //fecha actual\r\n    \"pesoBruto\": {{pesoBruto}}, //pesO_BRUTO\r\n    \"pesoNeto\": {{pesoNeto}}, //pesO_NETO\r\n    \"tipoBultos\": \"{{tipoBultos}}\", //fijo PCS\r\n    \"totalBultos\": {{totalBultos}}, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"{{marcasYNrosCarga}}\", //marcaS_NUM\r\n    \"condicionBulto\": \"{{condicionBulto}}\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"{{descripcionGuia}}\", //desC01\r\n    \"mercaderiaPeligrosa\": \"{{mercaderiaPeligrosa}}\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"{{tipoDocConsignatario}}\", //ctipodoc\r\n    \"documentoConsignatario\": \"{{documentoConsignatario}}\", //cdocumen o 214902340010\r\n    \"razonSocialConsignatario\": \"{{razonSocialConsignatario}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
 						}
 					]
 				},
@@ -4944,7 +5672,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"UserName\": \"ApiAduana\",\r\n  \"Environment\": \"TST\"\r\n}",
+							"raw": "{\r\n    \"UserName\": \"{{UserName}}\",\r\n    \"Environment\": \"{{Environment}}\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4963,7 +5691,39 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "ChangeTargetEnvironment",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"UserName\": \"ApiAduana\",\r\n  \"Environment\": \"TST\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/Web/changeEnvironmentTarget",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"Web",
+										"changeEnvironmentTarget"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
 				},
 				{
 					"name": "RegisterClient",
@@ -4982,7 +5742,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"ClientName\": \"CRON-SYSTEM\",\r\n  \"ActionList\": [\r\n    \"general\"\r\n  ]\r\n}",
+							"raw": "{\r\n    \"ClientName\": \"{{ClientName}}\",\r\n    \"ActionList\": [\r\n        \"{{ActionList}}\"\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5001,7 +5761,39 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "RegisterClient",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"ClientName\": \"CRON-SYSTEM\",\r\n  \"ActionList\": [\r\n    \"general\"\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/Web/registerClientToken",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"Web",
+										"registerClientToken"
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
 				},
 				{
 					"name": "GetClientInformation",
