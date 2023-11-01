@@ -3084,6 +3084,68 @@
 							"body": "{\n    \"clientOrderIdentifier\": 8,\n    \"data\": [\n        {\n            \"tipo\": \"S\",\n            \"codigo\": \"2612\",\n            \"ayuda\": \"Saldo Item DUA: 0.000 Total Bultos mensaje: 25.000                                                                                                                                                                                                            \",\n            \"descripcion\": \"No hay saldo suficiente para ingresar al deposito destino\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"5928996b-3cc3-4840-beae-5565b35155a3\",\n    \"code\": 10000,\n    \"message\": \"Error en operación de Aduana\"\n}"
 						},
 						{
+							"name": "Caso 4 Actualizado2",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 8,\r\n    \"nroDepositoAduana\": \"2089\", //codI_ALMA\r\n    \"nroStock\": \"6081007890\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"785051\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-11-01\", //fecha actual\r\n    \"pesoBruto\": 485.568, //pesO_BRUTO\r\n    \"pesoNeto\": 426.568, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 54, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"CHTEC\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"MEDICAMENTO PARA USO HUMANO\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "6bff5f4c-c11d-4e4d-bc9c-d8bd1838eaef"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 01 Nov 2023 15:27:29 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "496"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"clientOrderIdentifier\": 8,\n    \"data\": [\n        {\n            \"tipo\": \"A\",\n            \"codigo\": \"1450\",\n            \"ayuda\": \"Alta de Entrada a Deposito exitosa.                                                                                                                                                                                                                           \",\n            \"descripcion\": \"Operacion Exitosa\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"6bff5f4c-c11d-4e4d-bc9c-d8bd1838eaef\",\n    \"code\": 0,\n    \"message\": \"Transacción ejecutada con éxito\"\n}"
+						},
+						{
 							"name": "Caso 5",
 							"originalRequest": {
 								"method": "POST",
@@ -3208,6 +3270,68 @@
 							"body": "{\n    \"clientOrderIdentifier\": 8,\n    \"data\": [\n        {\n            \"tipo\": \"S\",\n            \"codigo\": \"2612\",\n            \"ayuda\": \"Saldo Item DUA: 0.000 Total Bultos mensaje: 8.000                                                                                                                                                                                                             \",\n            \"descripcion\": \"No hay saldo suficiente para ingresar al deposito destino\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"bb889ae7-aee0-48cb-99a4-b764bb29a257\",\n    \"code\": 10000,\n    \"message\": \"Error en operación de Aduana\"\n}"
 						},
 						{
+							"name": "Caso 5 Actualizado 2",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 8,\r\n    \"nroDepositoAduana\": \"2089\", //codI_ALMA\r\n    \"nroStock\": \"6080004578\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"001\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"785100\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 1200, //pesO_BRUTO\r\n    \"pesoNeto\": 1200, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 8, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"S/M  S/N\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"MATERIA PRIMA  IND/FARMACEUTICA\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "07d466e8-3ad7-4d2a-a7f3-0fefab0306dc"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 01 Nov 2023 15:35:04 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "496"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"clientOrderIdentifier\": 8,\n    \"data\": [\n        {\n            \"tipo\": \"A\",\n            \"codigo\": \"1450\",\n            \"ayuda\": \"Alta de Entrada a Deposito exitosa.                                                                                                                                                                                                                           \",\n            \"descripcion\": \"Operacion Exitosa\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"07d466e8-3ad7-4d2a-a7f3-0fefab0306dc\",\n    \"code\": 0,\n    \"message\": \"Transacción ejecutada con éxito\"\n}"
+						},
+						{
 							"name": "Caso 6",
 							"originalRequest": {
 								"method": "POST",
@@ -3330,6 +3454,68 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"clientOrderIdentifier\": 10,\n    \"data\": [\n        {\n            \"tipo\": \"S\",\n            \"codigo\": \"2612\",\n            \"ayuda\": \"Saldo Item DUA: 0.000 Total Bultos mensaje: 16.000                                                                                                                                                                                                            \",\n            \"descripcion\": \"No hay saldo suficiente para ingresar al deposito destino\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"aeb80dda-6259-48eb-b090-91552235da75\",\n    \"code\": 10000,\n    \"message\": \"Error en operación de Aduana\"\n}"
+						},
+						{
+							"name": "Caso 6 Actualizado 2",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 10,\r\n    \"nroDepositoAduana\": \"2089\", //codI_ALMA\r\n    \"nroStock\": \"6050004478\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"785327\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-10-17\", //fecha actual\r\n    \"pesoBruto\": 120, //pesO_BRUTO\r\n    \"pesoNeto\": 90, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 16, //canT_BULTO\r\n    \"marcasYNrosCarga\": \" \", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"MEDICAMENTO P/USO HUMANO\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "58265f30-1215-47c6-b346-c2ce7e5ab15a"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 01 Nov 2023 15:35:39 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "497"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"clientOrderIdentifier\": 10,\n    \"data\": [\n        {\n            \"tipo\": \"A\",\n            \"codigo\": \"1450\",\n            \"ayuda\": \"Alta de Entrada a Deposito exitosa.                                                                                                                                                                                                                           \",\n            \"descripcion\": \"Operacion Exitosa\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"58265f30-1215-47c6-b346-c2ce7e5ab15a\",\n    \"code\": 0,\n    \"message\": \"Transacción ejecutada con éxito\"\n}"
 						},
 						{
 							"name": "Caso 7",
@@ -6098,6 +6284,68 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"clientOrderIdentifier\": 5,\n    \"data\": [\n        {\n            \"tipo\": \"S\",\n            \"codigo\": \"2918\",\n            \"ayuda\": \"Descripción: Flores 10 KGS. (ITEM 1)                                                                                                                                                                                                                          \",\n            \"descripcion\": \"Descripción de la mercancía debe venir en mayúscula.\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"63df5270-8f25-4657-8df3-e8e9439fc5a2\",\n    \"code\": 10000,\n    \"message\": \"Error en operación de Aduana\"\n}"
+						},
+						{
+							"name": "fechaEntradaDeposito superior al dia actual",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"clientOrderIdentifier\": 8,\r\n    \"nroDepositoAduana\": \"2089\", //codI_ALMA\r\n    \"nroStock\": \"6081004890\", //valor unico con tamaño especifico. \r\n    \"anoStock\": \"2023\", //anO_PRESE\r\n    \"tipoTransporte\": \"\", //solo se especifica cuando se va a dar de alta con un manifiesto\r\n    \"nroLineaAduana\": \"1\", //num\r\n    \"tipoDocEntrada\": \"19\", //para DUA\r\n    \"aduanaDocEntrada\": \"002\", //codI_ADUAN\r\n    \"anoDocEntrada\": \"2023\", //año del campo fecH_INGSI\r\n    \"nroDocEntrada\": \"785051\", //numE_CORRE\r\n    \"fechaEntradaDeposito\": \"2023-12-24\", //fecha actual\r\n    \"pesoBruto\": 485.568, //pesO_BRUTO\r\n    \"pesoNeto\": 426.568, //pesO_NETO\r\n    \"tipoBultos\": \"PCS\", //fijo\r\n    \"totalBultos\": 54, //canT_BULTO\r\n    \"marcasYNrosCarga\": \"CHTEC\", //marcaS_NUM\r\n    \"condicionBulto\": \"1\", //Perfecto estado = 1 / Abierto = 2 / Saqueado = 3 / Dañado = 4\r\n    \"descripcionGuia\": \"MEDICAMENTO PARA USO HUMANO\", //desC01\r\n    \"mercaderiaPeligrosa\": \"\", //1 o 0(vacío)\r\n    \"tipoDocConsignatario\": \"4\", //ctipodoc\r\n    \"documentoConsignatario\": \"214902340010\", //cdocumen\r\n    \"razonSocialConsignatario\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{ApiAduana.Url}}/api/StockOp/newStockEntry",
+									"host": [
+										"{{ApiAduana.Url}}"
+									],
+									"path": [
+										"api",
+										"StockOp",
+										"newStockEntry"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Server",
+									"value": "Microsoft-IIS/10.0"
+								},
+								{
+									"key": "GUID",
+									"value": "3130765f-2d29-4c02-a7b9-d989a0eaea7b"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ASP.NET"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "ARR/3.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 01 Nov 2023 16:08:26 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "539"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"clientOrderIdentifier\": 8,\n    \"data\": [\n        {\n            \"tipo\": \"S\",\n            \"codigo\": \"3181\",\n            \"ayuda\": \"Fecha de Ingreso: 24/12/23                                                                                                                                                                                                                                    \",\n            \"descripcion\": \"La fecha de ingreso a depósito no puede ser superior a hoy.\",\n            \"referencias\": [\n                {},\n                {},\n                {},\n                {},\n                {}\n            ]\n        }\n    ],\n    \"guid\": \"3130765f-2d29-4c02-a7b9-d989a0eaea7b\",\n    \"code\": 10000,\n    \"message\": \"Error en operación de Aduana\"\n}"
 						}
 					]
 				},
